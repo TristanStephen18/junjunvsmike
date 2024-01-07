@@ -28,7 +28,7 @@
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agrisense is a game-changer in agriculture, utilizing smart sensors to monitor real-time soil conditions. Through advanced data analytics and machine learning, the system predicts the most suitable crops for specific soil types, 
         empowering farmers with actionable insights for precise and sustainable farming decisions.</p>
       <div class="buttons">
-      <button id="FAQs">FAQs</button>
+      <button id="FAQs" onclick="faqsu()">FAQs</button>
       <button id="Enter" onclick="redirectLogin()">Try Agrisense</button>
       </div>
     </div>
@@ -37,6 +37,9 @@
   <script>
   function redirectLogin() {
     window.location.href = "login.php";
+  }
+  function faqsu(){
+    window.location.href = "FAQS.php";
   }
 </script>
 

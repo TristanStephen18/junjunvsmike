@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
-    $password = password_hash($_POST["password"], PASSWORD_DEFAULT); // Hash the password
+    $password = $_POST["password"]; // Hash the password
 
     // Check for duplicate username
     $checkDuplicateQuery = "SELECT * FROM users WHERE username = ?";
@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         // Insert the new user into the database
         $insertQuery = "INSERT INTO users (username, password, email, number, request, accType) 
-                        VALUES (?, ?, ?, ?, 0, 'default')";
+                        VALUES (?, ?, ?, ?, 0, 'Basic')";
         $stmtInsert = $conn->prepare($insertQuery);
         $stmtInsert->bind_param('ssss', $username, $password, $email, $phone);
 

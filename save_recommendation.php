@@ -35,7 +35,7 @@ $receivedLongitude = sanitizeInput($_POST['longitude']);
 
 // Insert the data into the "inputs" table
 $sql = "INSERT INTO inputs (userID, nitrogen, phosphorus, potassium, humidity, temperature, rainfall, pH, location, dateTime, predictedResult, certaintyLevel, season)
-        VALUES ('$receivedUserID', '$receivedNitrogen', '$receivedPhosphorus', '$receivedPotassium', '$receivedHumidity', '$receivedTemperature', '$receivedRainfall', '$receivedPH', POINT('$receivedLatitude', '$receivedLongitude'), now(), 'Kangkongchips', '3.0', 'Bagsakan')";
+        VALUES ('$receivedUserID', '$receivedNitrogen', '$receivedPhosphorus', '$receivedPotassium', '$receivedHumidity', '$receivedTemperature', '$receivedRainfall', '$receivedPH', POINT('$receivedLatitude', '$receivedLongitude'), now(), 'Hatdog', '3.0', 'Bagsakan')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Record inserted successfully";

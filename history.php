@@ -45,7 +45,7 @@ h2{
                             while ($historyRow = mysqli_fetch_assoc($historyResult)) {
                                 $date = date('Y-m-d', strtotime($historyRow['dateTime']));
                                 if ($date != $currentDate) {
-                                    echo '<h2 style="font-size: 13px; margin-top: 13px;">Date: ' . $date . '</h2>';
+                                    echo '<h2 style="font-size: 17px; margin-top: 13px; font-weight: 700;">Date: ' . $date . '</h2>';
                                     $currentDate = $date;
                                 }
 

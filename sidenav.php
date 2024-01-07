@@ -1,6 +1,10 @@
 <?php
 session_start();
 include('config/config.php');
+if (!isset($_SESSION['username'])) {
+    header('Location: login.php'); // Redirect to the login page if not logged in
+    exit();
+}
 ?>
 <head>
     <!-- Add this to the head section of your HTML -->
@@ -167,7 +171,7 @@ p{
         <i class='bx bx-menu' id="btn"></i>
     </div>
     <div class="user">
-        <img src="defaultpfp.png" alt="pfp" class="user-image">
+        <img src="https://cdn-icons-png.flaticon.com/512/6997/6997490.png" alt="pfp" class="user-image">
         <div>
             <p class="bold"><?php echo $_SESSION['username'];?></p>
         </div>
@@ -186,7 +190,7 @@ p{
             <span class="tooltip">Use System</span>
         </li>
         <li>
-            <a href="#"><i class='bx bx-user-circle' ></i>
+            <a href="profile.php"><i class='bx bx-user-circle' ></i>
             <span class="nav-item">Profile</span>
             </a>
             <span class="tooltip">Your Profile</span>

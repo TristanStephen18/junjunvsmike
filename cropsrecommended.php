@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="assets\css\cropscss.css">
     <script src="assets\js\swiper-bundle.min.js"></script>
     <script src="assets\js\script.js"></script>
+    <style>
+.card-content {
+    padding: 0 20px; 
+}
+.statistics {
+    margin-left: 4px; 
+    height: 90px; 
+    overflow-y: auto; 
+}
+
+.stat {
+    margin-bottom: 5px;
+}
+    </style>
 </head>
 <body style="background: url('draftbg.jpg') no-repeat fixed; background-size: cover;
     background-position: center;">
@@ -50,6 +64,7 @@
         <div class="slide-content">
             <div class="card-wrapper swiper-wrapper">
                 <div class="card swiper-slide">
+                    <div class="content-container">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -63,10 +78,26 @@
                         adipiscing elit. Sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
+                    </div>
                     </div>
                 </div>
                 <div class="card swiper-slide">
+                    <div class="content-container">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -80,10 +111,26 @@
                         adipiscing elit. Sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
+                    </div>
                     </div>
                 </div>
                 <div class="card swiper-slide">
+                    <div class="content-container">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -97,7 +144,22 @@
                         adipiscing elit. Sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
+                    </div>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -114,6 +176,20 @@
                         adipiscing elit. Sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
                     </div>
                 </div>
@@ -131,6 +207,20 @@
                         adipiscing elit. Sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
                     </div>
                 </div>
@@ -148,6 +238,20 @@
                         adipiscing elit. Sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
                     </div>
                 </div>
@@ -163,6 +267,20 @@
                         <p class="description">
                         The DF eaten by Mugiwara no Luffy. But he does not know that it is an ancient zoan called, Hito hito no mi, Model "Nika" 
                         </p>
+                        <h3>Statistics</h3>
+                        <div class="statistics">
+                            <p class="stat"><strong>Germination:</strong> 75%</p>
+                            <p class="stat"><strong>Temperature:</strong> 25°C</p>
+                            <p class="stat"><strong>Humidity:</strong> 60%</p>
+                            <p class="stat"><strong>Soil pH:</strong> 6.5</p>
+                            <p class="stat"><strong>Sunlight:</strong> Full Sun</p>
+                            <p class="stat"><strong>Watering:</strong> Regular</p>
+                            <p class="stat"><strong>Growth Period:</strong> 90 days</p>
+                            <p class="stat"><strong>Nutrients:</strong> Balanced</p>
+                            <p class="stat"><strong>Spacing:</strong> 12 inches</p>
+                            <p class="stat"><strong>Pruning:</strong> Occasional</p>
+                            <p class="stat"><strong>Yield:</strong> 400 kg/acre</p>
+                        </div>
                         <button class="button" onclick="saveRecommendation()">Save Recommendation</button>
                     </div>
                 </div>

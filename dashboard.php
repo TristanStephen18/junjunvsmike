@@ -14,6 +14,7 @@
         }
 
     body {
+        background: rgba(189, 188, 188, 0.507);
         flex-direction: column;
         align-items: center;
         height: 100vh;
@@ -24,6 +25,7 @@
     }
 
     .card {
+        background: #fff;
         width: 40%;
         flex: 1;
         margin: 10px;

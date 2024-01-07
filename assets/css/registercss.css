@@ -20,13 +20,13 @@ justify-content: space-between;
   position: absolute;
   top: 10px;
   left: 10px;
-  color: #fff;
+  color: #95b18f;
   display: flex;
   margin-left: 50px;
 }
 #topNav h1{
     font-size: 50px;
-      background: linear-gradient(90deg, #143E1F, #c3d330);
+      background: linear-gradient(90deg, #143E1F, #2f9226);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.473);

@@ -12,6 +12,7 @@
 }
 
 body {
+    background: rgba(189, 188, 188, 0.507);
     justify-content: center;
     align-items: center;
 }
@@ -35,11 +36,11 @@ h1{
                             Recommendation
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="padding: 20px 20px;">
                                 <div class="picture" style="padding: 16px;">
                                     <img src="images\samplecrop6.jpg" alt="amado" class="img-fluid" style="width: 100%; height: 300px; border-radius: 10px;">
                                 </div>
-                                <div class="crop-name" style="padding-left: 120px;">
+                                <div class="crop-name" style="text-align: center;">
                                     <h1>
                                         <?php
                                         if (isset($_GET['inputID'])) {
@@ -60,7 +61,7 @@ h1{
                                         Corn Crop Details
                                     </h2>
                                 </div>
-                                <div class="description" style="padding: 16px;">
+                                <div class="description" style="padding: 17px;">
                                     <p>
                                         Corn is a widely cultivated grain crop, native to the Americas. It is a staple food in many parts of the world, providing nutrients and versatility in cooking.
                                     </p>
